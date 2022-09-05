@@ -18,6 +18,13 @@ public class VariableCast {
         int b = 12;
         System.out.println(a/b);
         System.out.println((double) a/b);
+
+        char n = '1';
+        int nI = n;
+        System.out.println(nI);
+        
+        short nS = (short) n;
+        System.out.println(nS);
         
     }
 }
